@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    background-color: #fc369c;
+    background-image: url("../img/folha.png");
+    /*background-repeat no-repeat; */
+    /* background-position: right bottom; */
+}
+
+#menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 35px;
+    background-color: black;
+    /* opacity: .1; */
+    position: fixed;
+    top: 0;
+    width: 96%;
+    margin: 0;
+}
+
+#menu li {
+    text-align: center;
+    padding: 5px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#menu li a:hover {
+    color:crimson;
+    font-size: 1.1em;
+}
+.linha-titulo {
+    background-color: aquamarine;
+    border: chocolate 5px solid;
+}
+
+.linha-corpo {
+    background-color: rgb(148, 8, 148);
+}
+
+.linha-corpo:hover {
+    background-color: rgb(145, 3, 10);
+}
+
+table,
+tr,
+td,
+th {
+    border : 2px solid;
+    border-radius: 5px;
+    border-color: #a450a1;
+}
+
+.folha {
+    /* background-color: rgb(68, 1, 112); */
+    background-image: url("../img/folha.png");
+    height: 60px;
+    width: 60px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.folhas {
+    display: flex;
+    justify-content: space-around;
+}
