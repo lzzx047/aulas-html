@@ -60,7 +60,6 @@ th {
 
 .folha {
     /* background-color: rgb(68, 1, 112); */
-    background-image: url("../img/folha.png");
     height: 60px;
     width: 60px;
     border-top-right-radius: 30px;
